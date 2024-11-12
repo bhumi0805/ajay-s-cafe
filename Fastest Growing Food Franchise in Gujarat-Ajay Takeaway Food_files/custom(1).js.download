@@ -1,0 +1,12 @@
+
+$(function () { 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 5) { 
+            $('navbar-area .is-sticky .main-navbar .navbar .navbar-brand .changeimg').attr('src','images/ajays_logo_red.png');
+			
+        }
+        else { 
+            $('navbar-area .is-sticky .main-navbar .navbar .navbar-brand .changeimg').attr('src','images/ajays_logo_red.png');
+        }
+    })
+});
